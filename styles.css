@@ -9,13 +9,13 @@ body {
 
 .container-fluid {}
 
-.container-center {}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
 
 .container {
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
     padding: 0rem, 1rem;
-    border: 1px solid rgb(20, 7, 120);
 }
 
 .link {
